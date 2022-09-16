@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #C2EEE4;
+    margin-top: 25px !important;
+    margin-bottom: 25px;
+}
+
+body h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+#about h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+    padding-left: 15px;
+}
+
+#about p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+#etudes h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+#etudes h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:black;
+    padding-left: 50px;
+}
+
+#etudes p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#02878c;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+#experiences h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+#experiences h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:black;
+    padding-left: 50px;
+}
+
+#experiences p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#02878c;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+
+#projets h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+#projets h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:black;
+    padding-left: 10px;
+}
+
+#projets p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#02878c;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+#projets img {
+    width: 15%;
+    height: 15%;
+    padding-left: 10px;
+    border-radius: 20%;
+}
+
+
+#last {
+    padding-bottom: 50px !important;
+}
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;   
+}
+
+.nav__links li a:hover {
+    color: #03989E;
+
+}
+
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    background-color: #C2EEE4;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:black;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color: black;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color: black;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
