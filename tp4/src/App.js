@@ -1,30 +1,21 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-// Put any other imports below so that CSS from your
-// components takes precedence over default styles.
+import Navbar from './components/Navbar';
 
-function App() {
+
+export default function App() {
+
+  const profils = [
+    { id : 1, nom: "Jules", imageUrl: '', imageSize: 90 },
+    { id : 2, nom: "Marie", imageUrl: '', imageSize: 90 },
+    { id : 3, nom: "Dylan", imageUrl: '', imageSize: 90 }
+  ];
+
   return (
-<div className="App">
-
-  <header className="App-header">
-    <nav class="navbar navbar-light">
-      <form class="container-fluid justify-content-end">
-        <button class="btn btn-success me-4 justify-content-md-end" type="button">Jeanne</button>
-        <button class="btn btn-success me-4" type="button">Martine</button>
-        <button class="btn btn-success me-4" type="button">Claude</button>
-      </form>
-    </nav>
-  </header>
-
-<div>
-<img src="" alt="" />
-
-</div>
-
-
-</div>
-  );
+  <>
+    <div className='App'>
+      <Navbar/>
+    </div>
+  </>
+  )
 }
-
-export default App;
