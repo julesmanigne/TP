@@ -1,21 +1,40 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './components/Navbar';
+import User from './components/user';
 
+const profils = [
+  {
+    nom: "Jules",
+    id:1,
+  },
+  {
+    nom: "Lara",
+    id:2,
+  },
+  {
+    nom: "Dylan",
+    id:3,
+  }
+]
 
-export default function App() {
+function App() {
+  const profilList = profils.map((profil) => {
+    return (
+      <User 
+        key={profil.id}
+        name={profil.nom} 
+      />
+    );
+  });
 
-  const profils = [
-    { id : 1, nom: "Jules", imageUrl: '', imageSize: 90 },
-    { id : 2, nom: "Marie", imageUrl: '', imageSize: 90 },
-    { id : 3, nom: "Dylan", imageUrl: '', imageSize: 90 }
-  ];
+  console.log(profilList);
 
   return (
-  <>
-    <div className='App'>
-      <Navbar/>
+    <div>
+      <div className ='App-container'>
+        {profilList}
+      </div>
     </div>
-  </>
-  )
+  );  
 }
+export default App;
